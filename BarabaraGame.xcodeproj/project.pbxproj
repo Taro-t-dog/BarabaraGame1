@@ -13,6 +13,10 @@
 		9FD93D0C28295D7600C54A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD93D0A28295D7600C54A69 /* Main.storyboard */; };
 		9FD93D0E28295D7900C54A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD93D0D28295D7900C54A69 /* Assets.xcassets */; };
 		9FD93D1128295D7900C54A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD93D0F28295D7900C54A69 /* LaunchScreen.storyboard */; };
+		9FD93D1B28295F8E00C54A69 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD93D1928295F8E00C54A69 /* tail.png */; };
+		9FD93D1C28295F8E00C54A69 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD93D1A28295F8E00C54A69 /* bar.png */; };
+		9FD93D1E282962DB00C54A69 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD93D1D282962DB00C54A69 /* GameViewController.swift */; };
+		9FD93D20282962F500C54A69 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD93D1F282962F500C54A69 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9FD93D0D28295D7900C54A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD93D1028295D7900C54A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD93D1228295D7900C54A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD93D1928295F8E00C54A69 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		9FD93D1A28295F8E00C54A69 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		9FD93D1D282962DB00C54A69 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9FD93D1F282962F500C54A69 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		9FD93D0328295D7600C54A69 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				9FD93D1828295F8E00C54A69 /* Barabara素材 */,
 				9FD93D0428295D7600C54A69 /* AppDelegate.swift */,
 				9FD93D0628295D7600C54A69 /* SceneDelegate.swift */,
 				9FD93D0828295D7600C54A69 /* ViewController.swift */,
+				9FD93D1F282962F500C54A69 /* RankingViewController.swift */,
+				9FD93D1D282962DB00C54A69 /* GameViewController.swift */,
 				9FD93D0A28295D7600C54A69 /* Main.storyboard */,
 				9FD93D0D28295D7900C54A69 /* Assets.xcassets */,
 				9FD93D0F28295D7900C54A69 /* LaunchScreen.storyboard */,
 				9FD93D1228295D7900C54A69 /* Info.plist */,
 			);
 			path = BarabaraGame;
+			sourceTree = "<group>";
+		};
+		9FD93D1828295F8E00C54A69 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9FD93D1928295F8E00C54A69 /* tail.png */,
+				9FD93D1A28295F8E00C54A69 /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD93D1128295D7900C54A69 /* LaunchScreen.storyboard in Resources */,
+				9FD93D1C28295F8E00C54A69 /* bar.png in Resources */,
+				9FD93D1B28295F8E00C54A69 /* tail.png in Resources */,
 				9FD93D0E28295D7900C54A69 /* Assets.xcassets in Resources */,
 				9FD93D0C28295D7600C54A69 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD93D20282962F500C54A69 /* RankingViewController.swift in Sources */,
+				9FD93D1E282962DB00C54A69 /* GameViewController.swift in Sources */,
 				9FD93D0928295D7600C54A69 /* ViewController.swift in Sources */,
 				9FD93D0528295D7600C54A69 /* AppDelegate.swift in Sources */,
 				9FD93D0728295D7600C54A69 /* SceneDelegate.swift in Sources */,
